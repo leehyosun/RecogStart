@@ -58,10 +58,33 @@ Input Data 입력 후 Study Data 입력
 클래스들
 Learner
 Data ------- InputDataManager
-Sensor
+Sensor - 생략
 InputDataManager
   - load(DataFile filename) - InputDataManager 가 DataFile로부터 Data를 읽는다.
 OutputDataManager
   - make(OutData outdata) - OutputDataManager 가 OutData를 생성한다.
 DataFile
 타임 프레임: 센서 - 값, 센서 - 값, …
+
+Decision 의사결정 - 생략
+
+---------------------------
+Data = sensor:value …
+
+Data
+Sense
+Value
+InputData
+OutputData
+Info
+Know
+Time
+Surroundings
+
+Sensor
+InputDataManager
+OutputDataManager
+Learner
+Cognizer
+Recognizer
+System
