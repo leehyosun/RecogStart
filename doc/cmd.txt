@@ -1,0 +1,24 @@
+-f D:\Temp99\c70n\source\framework_c70n\android\webkit\WebBackForwardList.java
+-----------
+-d D:\\Temp99\\c70n\\source\\framework_c70n -o summary_framework_c70n.txt
+-d D:\Temp99\lollipop\source\framework_lollipop.src -o summary_framework_lollipop.txt
+
+-d D:\\Temp99\\c70n\\source\\framework2_c70n -o summary_framework2_c70n.txt
+-d D:\Temp99\lollipop\source\framework2_lollipop.src -o summary_framework2_lollipop.txt
+
+-d D:\\Temp99\\c70n\\source\\telephony-common_c70n -o summary_telephony-common_c70n.txt
+-d D:\Temp99\lollipop\source\telephony_common_lollipop.src -o summary_telephony_common_lollipop.txt
+---------------
+-f1 D:\\Temp77\\ClassSummary\\ClassSummary\\summary_telephony-common_c70n.txt -f2 D:\\Temp77\\ClassSummary\\ClassSummary\\summary_telephony_common_lollipop.txt -fo compare_telephony_common.txt
+
+-f1 D:\\Temp77\\ClassSummary\\ClassSummary\\summary_framework3_c70n.txt -f2 D:\\Temp77\\ClassSummary\\ClassSummary\\summary_framework3_lollipop.txt -fo compare_framework.txt
+-----------------------
+-ef D:\\Temp77\\ClassSummary\\ClassSummary\\21.txt -eo 21_reference.txt
+
+---------------------------
+-r1 D:\\Temp77\\ClassSummary\\ClassSummary\\compare_framework.txt -r2 D:\\Temp77\\ClassSummary\\ClassSummary\\21_reference.txt -ro violation_framework.txt
+
+-r1 D:\\Temp77\\ClassSummary\\ClassSummary\\compare_telephony_common.txt -r2 D:\\Temp77\\ClassSummary\\ClassSummary\\21_reference.txt -ro violation_telephony_common.txt
+
+=====================
+-f D:\\Temp77\\ClassSummary\\ClassSummary\\DownloadManager.java -o out.txt
